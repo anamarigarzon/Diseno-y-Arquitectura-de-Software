@@ -1,3 +1,5 @@
+from operation import Operation
+
 class Addition(Operation):
   def __init__(self, num1, num2, op='+'):
     super().__init__(num1,num2,op)
